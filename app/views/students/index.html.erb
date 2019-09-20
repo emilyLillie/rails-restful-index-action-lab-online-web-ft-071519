@@ -1,9 +1,6 @@
-<% @students.each do |x| %>
-<%= x.to_s %>
+<% @students.each do |student| %>
+  <h1><%= student.to_s %></h1>
 <% end %>
-
-
-
 
 
 <!--Map an index.html.erb view file to the student controller and iterate over the list of students returned from the index action in the controller. -->
