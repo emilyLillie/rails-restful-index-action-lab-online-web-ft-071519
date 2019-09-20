@@ -1,9 +1,8 @@
-class StudentController < ApplicationController
+class StudentsController < ApplicationController
   def index
-    @students = Student.all 
-    render "index"
+    @students = Student.all
   end
-end 
+end
 
 # Create a controller for students and have it inherit from ApplicationController
 
