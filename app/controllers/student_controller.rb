@@ -1,3 +1,6 @@
 class StudentController < ApplicationController
   def students
-    @students = 
+    @students = Student.all 
+    render students 
+  end
+end 
